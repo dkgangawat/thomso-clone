@@ -1,0 +1,41 @@
+.card{
+    background: radial-gradient(111.43% 111.43% at 0 0,hsla(0,0%,100%,0) 0,hsla(0,0%,100%,.1) 100%);
+    border: 1.5px solid transparent;
+    border-image-slice: 1;
+    border-image-source: radial-gradient(115.98% 168.03% at -3.2% 0,hsla(0,0%,100%,0) 0,hsla(0,0%,100%,.6) 100%);
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-bottom: 24px;
+    transition-duration: .5s;
+    width: 250px;
+}
+.card-media{
+    height: 200px;
+    margin: 12px;
+    margin-bottom: 16px!important;
+    object-fit: cover;
+    width: 226px;
+}
+.card-heading, .card-category{
+    align-items: center;
+    display: flex;
+    font-style: normal;
+    letter-spacing: -.02em;
+    margin-left: 12px;
+}
+.card-heading{
+    color: #e9e9e9;
+    font-family: Oxanium;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 2px;
+}
+.card-category{
+    color: #fff;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 12px;
+}

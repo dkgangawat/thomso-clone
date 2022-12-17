@@ -1,0 +1,114 @@
+header{
+    width: 100%;
+    height: 75px;
+    font-weight: 500;
+    user-select: none;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+}
+header img{
+    height: 57px;
+    margin-left: 45px;
+    width: 112px;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+header li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style: none;
+    align-content: center;
+    margin: 0 2px;
+    cursor: pointer;
+
+}
+header ul li a{
+        color: #fff;
+        font-family: Lato,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+        padding: 23px 20px;
+        text-decoration: none
+}
+.menu-bar{
+    display: none;
+    cursor: pointer;
+    margin-right: 45px;
+    z-index: 50;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+header .menu-bar .open ,header .menu-bar .close{
+    display: none;
+    fill: white;
+}
+.login-btn{
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    height: 44px;
+    margin-right: 80px;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 106px;
+}
+@media only screen and (max-width: 1000px) {
+    .menu-bar,header .menu-bar .open{
+        display: block;
+    }
+  
+    header ul{
+        display: none;
+        overflow: hidden;
+        padding-top: 70px;
+        width: 0;
+        left: 0;
+        top: 0;
+        line-height: 1;
+        transition: all cubic-bezier(0.55, 0.055, 0.675, 0.19);
+        height: 100vh;
+        background-color: #000000 ;
+    }
+    header ul.active{
+        display: block;
+        position: absolute;
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    ul li{
+        display:block;
+        font-size: 25px;
+        border-radius: 5px;
+        text-align: center;
+        padding: 15px!important;
+    }
+     li a:hover{
+        color: #21827e;
+    }
+    header .menu-bar.\.active .open, header .menu-bar .close{
+        display: none;
+    }
+    header .menu-bar.\.active .close, header .menu-bar .open{
+        display: block;
+    }
+}

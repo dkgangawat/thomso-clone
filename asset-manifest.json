@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/thomso-clone/static/css/main.79b3a294.css",
+    "main.js": "/thomso-clone/static/js/main.22461972.js",
+    "index.html": "/thomso-clone/index.html",
+    "main.79b3a294.css.map": "/thomso-clone/static/css/main.79b3a294.css.map",
+    "main.22461972.js.map": "/thomso-clone/static/js/main.22461972.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79b3a294.css",
+    "static/js/main.22461972.js"
+  ]
+}
